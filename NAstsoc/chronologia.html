@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronologia Wydarzeń - Astana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #555;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h2 {
+            color: #555;
+        }
+        .timeline-choice {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            transition: background-color 0.3s;
+        }
+        .timeline-choice:hover {
+            background-color: #ccc;
+        }
+        .timeline-choice img {
+            width: 100px;
+            height: 100px;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chronologia Wydarzeń - Astana</h1>
+</header>
+
+<section>
+    <h2>Wybierz wersję historii</h2>
+    <div>
+        <a href="chronologia_rzadowa.html" class="timeline-choice">
+            <img src="images/rzad.png" alt="Rządowa wersja">
+            <h3>Wersja Rządowa</h3>
+        </a>
+        <a href="chronologia_opozycyjna.html" class="timeline-choice">
+            <img src="images/opozycja.png" alt="Opozycyjna wersja">
+            <h3>Wersja Opozycyjna</h3>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Astana</p>
+</footer>
+
+</body>
+</html>
